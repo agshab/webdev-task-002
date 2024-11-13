@@ -1,0 +1,45 @@
+@import url("reset.css");
+
+header, 
+article, 
+aside,
+footer {
+
+    border: 2px solid red;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.column {
+    border: 2px dotted orange;
+    background-color: aqua;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+article {
+    display: flex;flex-direction: 
+    column;
+}
+   
+
+/* Destop */
+
+@media (min-width: 899px) {
+
+    .column {
+        border: 2px dashed green;
+        background-color: blueviolet;
+    }
+}
+
+
+/* Tablet */
+
+@media (min-width: 699px) {
+
+    .column {
+        border: 2px dashed rgb(128, 0, 117);
+        background-color: rgb(226, 49, 43);
+    }
+}
